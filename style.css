@@ -13,16 +13,24 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	background: #0E3142;
+	font-size: 18px;
 }
-
+.logo img {
+	width:60;
+}
+section article img {
+	width: 150;
+}
 section {
 	color: black;
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-around;
 	
 }
 article h2 {
-	
+
 }
 
 footer {
