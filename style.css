@@ -1,20 +1,23 @@
-h1 {
+body{
+	background: #114454;
 	font-family:arial, helvetica, sans-serif;
-	color: maroon;
-	display: flex;
-	justify-content: center;
 }
 
-.article-header {
-	font-family:arial, helvetica, sans-serif;
+a{
+	color: #94BF6E;
+}
+h1 {
+	color: #94BF6E;
+	display: flex;
+	justify-content: center;
+	background-color: #0E3142;
+}
+
+section {
 	color: black;
 	display: flex;
 	justify-content: center;
 	
-}
-
-h3{
-
 }
 
 footer {
