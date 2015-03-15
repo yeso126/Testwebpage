@@ -1,22 +1,27 @@
-body{
+body {
 	background: #114454;
 	font-family:arial, helvetica, sans-serif;
+	font-size: 16px;
 }
 
-a{
+a {
 	color: #94BF6E;
 }
-h1 {
+
+header {
 	color: #94BF6E;
 	display: flex;
-	justify-content: center;
-	background-color: #0E3142;
+	justify-content: flex-start;
+	background: #0E3142;
 }
 
 section {
 	color: black;
 	display: flex;
 	justify-content: center;
+	
+}
+article h2 {
 	
 }
 
