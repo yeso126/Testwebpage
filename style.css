@@ -1,0 +1,24 @@
+h1 {
+	font-family:arial, helvetica, sans-serif;
+	color: maroon;
+	display: flex;
+	justify-content: center;
+}
+
+.article-header {
+	font-family:arial, helvetica, sans-serif;
+	color: black;
+	display: flex;
+	justify-content: center;
+	
+}
+
+h3{
+
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
