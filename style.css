@@ -1,81 +1,37 @@
-body {
-	
-	background: #FFFFFF;
-	font-family:arial, helvetica, sans-serif;
-	font-size: 16px;
-	
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-mgjewg');
+	src:url('fonts/icomoon.eot?#iefix-mgjewg') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-mgjewg') format('woff'),
+		url('fonts/icomoon.ttf?-mgjewg') format('truetype'),
+		url('fonts/icomoon.svg?-mgjewg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-header {
-	color: #B6E548;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	background: #0092B2;
-	font-size: 18px;
-	padding: 1rem;
-	text-shadow: rgba(0,0,0,0.5) 5px 5px 5px ;
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
- .logo img {
- 	padding-right: 1em;
- 	border-right:2px solid white;
-	width:60px;
-	height:60px;
-}
-section article img {
-	width: 200px;
-	height: 220px;
-}
-section {
-	color: #0092B2;
-	display: flex;
-	margin-top: 4rem;
-	flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: stretch;
-}
-	
-section article {
-	border:1px  solid #0092B2;
+.icon-star-outline:before {
+	content: "\e600";
 }
 
-footer {
-	color: #0092B2;
-	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
-	text-align: center;
-	padding: 2em;
-	margin:0;
+.icon-home:before {
+	content: "\e900";
 }
 
-
-h2 {
-	display: flex;
-	justify-content: center;
-	border-bottom: 5px solid #0092B2;
-	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
+.icon-address-book:before {
+	content: "\e944";
 }
 
-
-nav {
-	background: #0AF3FB;
-	
-}
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-nav ul li {
-	display: inline-block;
-	margin: 0 0 0 4em;	
-
-}
-nav ul li a {
-	color: #0092B2;
-	font-size: 18px;
-	display: block;
-	padding: 0.5em 0;
-	text-decoration: none;
-	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
-}
