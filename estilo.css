@@ -17,11 +17,20 @@ header {
 	text-shadow: rgba(0,0,0,0.5) 5px 5px 5px ;
 }
 
- .logo img {
- 	padding-right: 1em;
+header #logo {
+	padding-right: 1em;
  	border-right:2px solid white;
+}
+ .logo img {
+
 	width:60px;
 	height:60px;
+	transition: 1s;
+}
+
+.logo img:hover {
+	transform: rotate(90deg);
+
 }
 section article img {
 	width: 200px;
@@ -42,7 +51,7 @@ section article {
 
 footer {
 	color: #0092B2;
-	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	padding: 2em;
 	margin:0;
@@ -79,3 +88,9 @@ nav ul li a {
 	text-decoration: none;
 	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
 }
+@media screen and (max-width: 700px) {
+	.logo {
+		display: none;
+	}
+}
+
