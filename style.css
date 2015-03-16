@@ -20,14 +20,17 @@ header {
 	justify-content: flex-start;
 	background: #0092B2;
 	font-size: 18px;
+	padding: 1rem;
 }
 
-.logo img {
-	width:60;
-	height:60;
+ .logo img {
+ 	padding-right: 1em;
+ 	border-right:2px solid white;
+	width:60px;
+	height:60px;
 }
 section article img {
-	width: 100;
+	width: 100px;
 }
 section {
 	color: black;
@@ -38,9 +41,18 @@ section {
 		align-items: stretch;
 }
 	
+section article {
+	border:1px  solid #0092B2;
+}
 
 footer {
 	margin-top: 6rem;
 	color: #0092B2;
 	display: flex;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	border-bottom: 5px solid #0092B2;
 }
