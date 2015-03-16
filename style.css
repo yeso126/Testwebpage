@@ -6,13 +6,6 @@ body {
 	
 }
 
-a {
-	display: :flex;
-	justify content: space-around;
-	color: #0AF3FB;
-}
-
-
 header {
 	color: #B6E548;
 	display: flex;
@@ -21,6 +14,7 @@ header {
 	background: #0092B2;
 	font-size: 18px;
 	padding: 1rem;
+	text-shadow: rgba(0,0,0,0.5) 5px 5px 5px ;
 }
 
  .logo img {
@@ -30,12 +24,13 @@ header {
 	height:60px;
 }
 section article img {
-	width: 100px;
+	width: 200px;
+	height: 220px;
 }
 section {
-	color: black;
+	color: #0092B2;
 	display: flex;
-	margin-top: 6rem;
+	margin-top: 4rem;
 	flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: stretch;
@@ -46,13 +41,41 @@ section article {
 }
 
 footer {
-	margin-top: 6rem;
 	color: #0092B2;
-	display: flex;
+	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
+	text-align: center;
+	padding: 2em;
+	margin:0;
 }
+
 
 h2 {
 	display: flex;
 	justify-content: center;
 	border-bottom: 5px solid #0092B2;
+	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
+}
+
+
+nav {
+	background: #0AF3FB;
+	
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 0 0 4em;	
+
+}
+nav ul li a {
+	color: #0092B2;
+	font-size: 18px;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
 }
